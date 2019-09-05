@@ -1,2 +1,2 @@
 # fibonacci-js
-Web development basics...
+Just a short and funny script. Fibonacci numbers from 1 to 100.
