@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fibonacci 0-100</title>
+</head>
+
+<body>
+
+  <script>
+    function fibonacci(num) {
+      let fib = [0, 1];
+      for (let i = 2; i <= num; i++) {
+        fib.push(fib[i - 1] + fib[i - 2]);
+      }
+      return fib;
+    }
+
+    document.write(fibonacci(100));
+  </script>
+
+</body>
+
+</html>
